@@ -3,16 +3,16 @@ ABSTRACT: As space travel becomes increasingly complex and sought after with the
 1. Installation Instructions
 • Python version 3.11 is recommended. The project specifically requires a version lower than the most recent releases to ensure compatibility with the PyBaMM version used during development.
 • The following packages were used in the stable environment:
-   ◦ pybamm==25.6.0
-   ◦ numpy==1.26.4 (Note: Higher versions of NumPy may cause dependency conflicts with PyBaMM)
-   ◦ pandas>=1.5.0
-   ◦ scikit-learn
-   ◦ matplotlib
-   ◦ cycler
+      ◦ pybamm==25.6.0
+      ◦ numpy==1.26.4 (Note: Higher versions of NumPy may cause dependency conflicts with PyBaMM)
+      ◦ pandas>=1.5.0
+      ◦ scikit-learn
+      ◦ matplotlib
+      ◦ cycler
 • It is highly recommended to use a virtual environment to manage specific dependency versions:
-  python3.11 -m venv venv
-  source venv/bin/activate  # On Windows: venv\Scripts\activate
-  pip install -r requirements.txt
+        python3.11 -m venv venv
+        source venv/bin/activate  # On Windows: venv\Scripts\activate
+        pip install -r requirements.txt
 2. How to Run the Code
 • Notebook: Open PyBaMM_Simulation.ipynb.
 • Execution Order: Cells must be run sequentially.
